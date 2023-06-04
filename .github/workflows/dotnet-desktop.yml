@@ -16,7 +16,7 @@ jobs:
     
     defaults:
       run:
-        working-directory: root
+        working-directory: BankCalculator
 
     steps:
     - uses: actions/checkout@v3
