@@ -1,30 +1,36 @@
-name: Build Web App
- 
-on: [push]
- 
+name: 030-dotnet-workflow
+
+on:
+  push:
+    branches: none # [ main ]
+  pull_request:
+    branches: none # [ main ]
+    
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
 jobs:
-  build:
- 
+  build-dotnet-app:
+
     runs-on: windows-latest
- 
+    
+    defaults:
+      run:
+        working-directory: root
+
     steps:
     - uses: actions/checkout@v3
-      name: Checkout Code
-     
-    - name: Setup MSBuild Path
-      uses: microsoft/setup-msbuild@v1.0.0
-       
-    - name: Setup NuGet
-      uses: NuGet/setup-nuget@v1.0.2
-     
-    - name: Restore NuGet Packages
-      run: nuget restore Lab2 - Part 1 Cesar.sln
- 
-    - name: Build and Publish Web App
-      run: msbuild Lab2 - Part 1 Cesar.sln /p:Configuration=Release /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
- 
-    - name: Upload Artifact
-      uses: actions/upload-artifact@v1.0.0
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v2
       with:
-        name: published_webapp
-        path: bin\Release\Publish
+        dotnet-version: 6.0.x
+  
+    - name: Restore dependencies
+      run: dotnet restore
+      
+    - name: Build
+      run: dotnet build --no-restore
+      
+    - name: Test
+      run: dotnet test --no-build --verbosity normal
