@@ -30,3 +30,14 @@ C:\Users\Пользователь\Desktop\Калькуляторы_проект_
 C:\Users\Пользователь\Desktop\Калькуляторы_проект_WinForms\BankCalculator\BankCalculator\obj\Debug\BankCalculator.csproj.CoreCompileInputs.cache
 C:\Users\Пользователь\Desktop\Калькуляторы_проект_WinForms\BankCalculator\BankCalculator\obj\Debug\BankCalculator.exe
 C:\Users\Пользователь\Desktop\Калькуляторы_проект_WinForms\BankCalculator\BankCalculator\obj\Debug\BankCalculator.pdb
+C:\Users\Пользователь\source\repos\TestCICD\BankCalculator\bin\Debug\BankCalculator.exe.config
+C:\Users\Пользователь\source\repos\TestCICD\BankCalculator\bin\Debug\BankCalculator.exe
+C:\Users\Пользователь\source\repos\TestCICD\BankCalculator\bin\Debug\BankCalculator.pdb
+C:\Users\Пользователь\source\repos\TestCICD\BankCalculator\obj\Debug\BankCalculator.csproj.AssemblyReference.cache
+C:\Users\Пользователь\source\repos\TestCICD\BankCalculator\obj\Debug\BankCalculator.csproj.SuggestedBindingRedirects.cache
+C:\Users\Пользователь\source\repos\TestCICD\BankCalculator\obj\Debug\BankCalculator.BankCalculator.resources
+C:\Users\Пользователь\source\repos\TestCICD\BankCalculator\obj\Debug\BankCalculator.Properties.Resources.resources
+C:\Users\Пользователь\source\repos\TestCICD\BankCalculator\obj\Debug\BankCalculator.csproj.GenerateResource.cache
+C:\Users\Пользователь\source\repos\TestCICD\BankCalculator\obj\Debug\BankCalculator.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\source\repos\TestCICD\BankCalculator\obj\Debug\BankCalculator.exe
+C:\Users\Пользователь\source\repos\TestCICD\BankCalculator\obj\Debug\BankCalculator.pdb
